@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "test" : "react-scripts test && PORT=6767",
+    "dev": "vite && SET PORT=4949",
+    "test" : "react-scripts test && SET PORT=6767",
+    "prod" : "react-scripts start && SET PORT=3500",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
